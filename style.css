@@ -30,7 +30,7 @@
 
 
 
-.nav-container, .banner-container, .problem {
+.nav-container, .banner-container, .problem, .solution {
     width: 85%;
     max-width: 1600;
     margin: 0 auto;
@@ -156,7 +156,9 @@ header {
     flex-direction: column;
     padding: 24px;
     border: none;
-    border-radius: 8px;
+    /* border-radius: 8px; */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     box-shadow: 0px 0px 8px #00000060;
     width: 322px;
     height: 300px;
@@ -179,4 +181,53 @@ header {
     font-weight: 600;
     margin-bottom: 16px;
 
+}
+
+
+
+/* =======solution============ */
+
+.solution {
+    padding: 120px;
+    gap: 40px;
+    background-color: #FFFFFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+
+.solution-heading {
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.solution-text h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.solution-contant {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.list {
+    display: flex;
+    gap: 6px;
+}
+
+.list-text h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    margin-bottom: 16px;
 }
