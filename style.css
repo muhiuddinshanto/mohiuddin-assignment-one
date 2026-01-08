@@ -30,7 +30,7 @@
 
 
 
-.nav-container, .banner-container {
+.nav-container, .banner-container, .problem {
     width: 85%;
     max-width: 1600;
     margin: 0 auto;
@@ -119,3 +119,64 @@ header {
 }
 
 
+
+/* =======problem============ */
+
+.problem-text {
+    text-align: center;
+    padding: 120px 120px 0 120px;
+}
+
+.problem-text h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.problem-text p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+
+.problem-card {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    text-align: center;
+    justify-content: center;
+
+    
+}
+
+.card-box {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px #00000060;
+    width: 322px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.problem-card img {
+    background-color: #F95555;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.card-box h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+
+}
